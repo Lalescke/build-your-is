@@ -1,9 +1,9 @@
-# BUILD YOUR IS
-
-## FR
-
-Dans le cadre d'un module d'école, nous avons du recréer notre propre base de donnée en MySQL. Le schéma de la base est disponible dans le fichier "schema_tables.pdf". Dans notre cas, nous avons simulé une entreprise de location de camions.
-
-## ENG
-
-As part of a school module, we had to recreate our own database in MySQL. The database schema is available in the “schema_tables.pdf” file. In our case, we simulated a truck rental business.
+# Groupe de jovici_a 988757
+  
+Quand une voiture a le parkingID à NULL, elle est soit en utilisation, soit en réparation.  
+Par conséquent, toutes les voitures avec un parkingID not NULL sont disponibles pour la clientèle.  
+  
+Prix du restock = prix total - (prix par jour * nbre jour)
+  
+Les durées sont en jour.  
+Un client paie quand il reçoit la voiture (starting day of the trip)
